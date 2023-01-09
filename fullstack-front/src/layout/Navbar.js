@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-lg navbar-dark color ">
+        <Link className="navbar-brand padding" to="/">
           Full Stack Application
         </Link>
         <button
@@ -20,7 +20,7 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent"></div>
-        <Link className="btn btn-outline-light" to="/adduser">Add User</Link>
+        <Link className="btn btn-outline-light  mr" to="/adduser">Add User</Link>
 
       </nav>
     </div>

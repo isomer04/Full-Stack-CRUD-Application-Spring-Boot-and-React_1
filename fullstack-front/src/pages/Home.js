@@ -46,7 +46,7 @@ export default function Home() {
                 <td>{user.email}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
+                    className="btn btn-success mx-2"
                     to={`/viewuser/${user.id}`}
                   >
                     View
