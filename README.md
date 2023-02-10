@@ -13,8 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 ##Step 1: Clone the repository
 Clone the repository to your local machine using the following command:
 
-```
-git clone https://github.com/<your-username>/full-stack-crud-application.git```
+(``` 
+git clone https://github.com/<your-username>/full-stack-crud-application.git```)
 
 ##Step 2: Create the database
 
